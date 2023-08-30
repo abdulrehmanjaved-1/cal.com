@@ -5,3 +5,4 @@ module.exports = {
   content: [...base.content, "../../node_modules/@tremor/**/*.{js,ts,jsx,tsx}"],
   plugins: [...base.plugins, require("tailwindcss-animate")],
 };
+
